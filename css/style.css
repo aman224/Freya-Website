@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Futura PT",sans-serif;
+    background-color: red;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(31,31,31,.6);
+  margin: 3px;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+#section-one {
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background: rgba(255, 255, 255, 0.856);
+    padding: 10px 0px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+header #nav-heading {
+    float: left;
+    background: black;
+    padding: 5px 10px 5px 13px;
+    color: white;
+    border-radius: 18px;
+    border-bottom-right-radius: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 2px 20px 0px 10px;
+    letter-spacing: .01em;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    margin: 6px 0px;
+}
+
+header .social_media {
+    float: right;
+}
+
+.social_media .fa {
+    margin: 10px 12px;
+}
+
+.dropbtn {
+    background: rgba(0, 0, 0, 0);
+    color: rgba(31,31,31,.6);
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    margin: 0px 2px 0px 2px;
+    font-family: "Futura PT",sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    width: 180px;
+    background-color: white;
+    margin: 0px 4px;
+    border-radius: 3px;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.dropdown-content a, .dropdown-con {
+    color: rgba(31,31,31,.6);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    margin: 0px 10px 0px 10px;
+    font-weight: 500;
+}
+
+ul ul {
+    position: relative;
+    left: 100%;
+    margin-left: 20px;
+    padding: 10px;
+    top: -32px;
+    background-color: white;
+    width: 180px;
+    height: 30px;
+    display: none !important;
+}
+
+.expand {
+    padding-bottom: 100;
+}
+
+.dropdown-content  li {
+    display: block;
+    
+}
+
+.expand:hover ul ul {
+    display: block;
+    background: green;
+}
+
+.dropdown-content a:hover { color: #1F1F1F !important; }
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropbtn { color: #1F1F1F; cursor: pointer; }
+
+.social_media .fa{
+    cursor: pointer;
+}
