@@ -57,6 +57,7 @@ header #nav-heading {
     font-weight: 600;
     margin: 2px 20px 0px 10px;
     letter-spacing: .01em;
+    cursor: pointer;
 }
 
 header ul {
@@ -164,7 +165,6 @@ ul ul {
 
 #location {
     letter-spacing: 2px;
-    float: left;
     margin: 0;
     font-family: Nunito, sans-serif;
 }
@@ -177,8 +177,8 @@ ul ul {
 }
 
 #front-page .info {
-    width: 500px;
-}
+    width: 100%;
+}   
 
 #main-button {
     border: 2px solid white;
@@ -220,21 +220,40 @@ ul ul {
 
     #main-button {
         float: none;
+        margin: 0 auto;
     }
  
     #front-page {
         width: 100%;
     }
 
-    #front-page .info {
-        float: left;
-        position: relative;
-        z-index: +1;
+    .info {
+        text-align: center;
+        margin: 0 auto;
     }
 
     #description {
-        width: 80%;
+        float: none;
+        line-height: 1.0;
+        margin-bottom: 20px
     }
+
+    #location {
+        float: none;
+        width: inherit;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    #front-page {
+        position: static;
+        display: inline-block;
+        margin-top: 250px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0,0,0,0.7),rgba(0,0,0,0.7), rgba(0, 0, 0, 0.01));
+    }
+
 }
 
 #section-two {
