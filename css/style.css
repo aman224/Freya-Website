@@ -44,7 +44,11 @@ header {
     background: rgba(255, 255, 255, 0.856);
     padding: 10px 0px;
     border-radius: 18px;
-    overflow: hidden;
+    height: 38px;
+}
+
+nav {
+
 }
 
 header #nav-heading {
@@ -94,7 +98,7 @@ header .social_media {
 }
 
 .dropdown {
-    position: relative;
+    position: re;
     display: inline-block;
 }
 
@@ -106,7 +110,8 @@ header .social_media {
     border-radius: 3px;
     text-align: left;
     padding: 20px 0px;
-    position: static;
+    position: absolute;
+    z-index: +100;
 }
 
 .dropdown-content a, .dropdown-con {
@@ -144,7 +149,7 @@ ul ul {
     background: green;
 }
 
-.dropdown-content a:hover { color: #1F1F1F !important; }
+.dropdown-content a:hover { color: #1F1F1F !important;}
 .dropdown:hover .dropdown-content { display: block; }
 .dropdown:hover .dropbtn { color: #1F1F1F; cursor: pointer;}
 
