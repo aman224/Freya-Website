@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Futura PT",sans-serif;
+    font-family: "Futura PT",  Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     line-height: 1.45;
     display: table;
@@ -90,7 +90,7 @@ header .social_media {
     font-size: 1rem;
     border: none;
     margin: 0px 2px 0px 2px;
-    font-family: "Futura PT",sans-serif;
+    font-family: "Futura PT", Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .dropdown {
@@ -166,7 +166,7 @@ ul ul {
 #location {
     letter-spacing: 2px;
     margin: 0;
-    font-family: Nunito, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #description {
