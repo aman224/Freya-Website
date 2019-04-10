@@ -41,7 +41,7 @@ header {
     position: sticky;
     top: 20px;
     background: rgba(255, 255, 255, 0.856);
-    padding: 10px 0px;
+    padding: 10px 0px 10px 0px;  /*padding: 10px 0px */
     border-radius: 18px;
     height: 38px;
 }
@@ -207,6 +207,10 @@ ul ul {
         display: none;
     }
 
+    header {
+        width: 80%;
+    }
+
     .fa-bars {
         display: block !important;
         float: right;
@@ -248,15 +252,18 @@ ul ul {
     }
 
     #front-page {
+        z-index: 100;
         position: static;
         display: inline-block;
         margin-top: 250px;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0,0,0,0.7),rgba(0,0,0,0.7), rgba(0, 0, 0, 0.01));
     }
 
+    /* Hamburger navbar */
+
+
 }
 
-#section-two {
-    height: 100%;
-    color: black;
-}
+
+/*  */
+
