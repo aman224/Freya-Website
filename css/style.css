@@ -33,7 +33,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-
 }
 
 header {
@@ -45,10 +44,6 @@ header {
     padding: 10px 0px;
     border-radius: 18px;
     height: 38px;
-}
-
-nav {
-
 }
 
 header #nav-heading {
