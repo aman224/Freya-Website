@@ -210,11 +210,7 @@ ul ul {
     header {
         width: 80%;
         z-index: 200;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
+        position: sticky;
     }
 
     .fa-bars {
@@ -270,12 +266,18 @@ ul ul {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0,0,0,0.7),rgba(0,0,0,0.7), rgba(0, 0, 0, 0.01));
         overflow: hidden;
     }
-
     /* Hamburger navbar */
-
 
 }
 
+@media (min-height: 330px) and (max-width: 1000px) {
+    header {
+        position: absolute;
+        left:0;
+        right:0;
+        margin: 0, auto;
+    }
+}
 
 /*  */
 
