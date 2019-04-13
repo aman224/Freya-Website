@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Futura PT",  Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Futura PT", "Nunito Sans",  Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     line-height: 1.45;
     display: table;
@@ -90,7 +90,7 @@ header .social_media {
     font-size: 1rem;
     border: none;
     margin: 0px 2px 0px 2px;
-    font-family: "Futura PT", Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Futura PT", "Nunito Sans", Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .dropdown {
@@ -186,7 +186,7 @@ ul ul {
     height: 36px;
     background-color: rgba(0, 0, 0, 0.192);
     color: white;
-    font-family: "Futura PT",sans-serif;
+    font-family: "Futura PT", "Nunito Sans", sans-serif;
     font-size: 0.75019rem;
     font-weight: 600;
     letter-spacing: 0.1em;
@@ -209,6 +209,12 @@ ul ul {
 
     header {
         width: 80%;
+        z-index: 200;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .fa-bars {
@@ -247,16 +253,22 @@ ul ul {
         width: inherit;
     }
 
+    #section-one {
+        display: table-cell;
+        vertical-align: middle;
+        align-content: center;
+    }
+
     .container {
         text-align: center;
     }
 
     #front-page {
         z-index: 100;
-        position: static;
+        position: relative;
         display: inline-block;
-        margin-top: 250px;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0,0,0,0.7),rgba(0,0,0,0.7), rgba(0, 0, 0, 0.01));
+        overflow: hidden;
     }
 
     /* Hamburger navbar */
