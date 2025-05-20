@@ -36,14 +36,15 @@ body {
 }
 
 header {
-    width: 75%;
+    width: fit-content;
     margin: auto;
     position: sticky;
     top: 20px;
-    background: rgba(255, 255, 255, 0.856);
-    padding: 10px 0px 10px 0px;  /*padding: 10px 0px */
-    border-radius: 18px;
-    height: 38px;
+    background: rgba(255, 255, 255, 0.67);
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 header #nav-heading {
@@ -211,6 +212,7 @@ ul ul {
         width: 80%;
         z-index: 200;
         position: sticky;
+            justify-content: space-between;
     }
 
     .fa-bars {
@@ -267,6 +269,7 @@ ul ul {
         overflow: hidden;
     }
     /* Hamburger navbar */
+    
 
 }
 
